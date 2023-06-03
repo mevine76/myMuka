@@ -8,3 +8,10 @@ body {
 .bg-custom-color {
     background-color: #87bb34;
 }
+
+.card-body {
+    height: 100px;
+}
+.card-body2 {
+    height: 200px;
+}
