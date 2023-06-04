@@ -14,7 +14,7 @@ export class ApiService {
 
   constructor(private httpClient: HttpClient) { }
 
-  public getProducts1() {
-    return this.httpClient.get<any>('https://world.openfoodfacts.org/api/v0/product/737628064502.json');
+  public getProduct() {
+    return this.httpClient.get<Data>('https://world.openfoodfacts.org/api/v0/product/737628064502.json');
   }
 }

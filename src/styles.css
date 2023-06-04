@@ -9,11 +9,35 @@ body {
     background-color: #87bb34;
 }
 
+img {
+    width: 100%;
+    border-radius: 50%;
+}
 .card-body {
     height: 100px;
 }
+
+.card-body1 {
+    padding: 50px;
+}
+
 .card-body2 {
     height: 200px;
 }
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+#desc {
+    font-size: 36px;
+}
+
+#nova {
+    font-size: 80px;
+}
+
+#nutri {
+    font-size: 60px;
+    text-transform: uppercase;
+}
