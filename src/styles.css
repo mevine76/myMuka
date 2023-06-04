@@ -9,9 +9,23 @@ body {
     background-color: #87bb34;
 }
 
+h1, h2, p {
+    font-size: 20px;
+    color: white;
+}
 img {
     width: 100%;
     border-radius: 50%;
+}
+
+#ingredients {
+    background-color: white;
+    color: black;
+    height: auto;
+    padding: 15px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    text-align: start;
 }
 .card-body {
     height: 100px;
@@ -22,6 +36,7 @@ img {
 }
 
 .card-body2 {
+    font-style: 16px;
     height: 200px;
 }
 
@@ -34,10 +49,52 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 #nova {
-    font-size: 80px;
+    
 }
 
 #nutri {
-    font-size: 60px;
     text-transform: uppercase;
-}
+} 
+ 
+
+@keyframes scroll {
+    0% {
+    transform: translateX(-100%);
+    }
+    100% {
+    transform: translateX(100%);
+    }
+   }
+   
+   .scrolling-text {
+    animation: scroll 1000s linear infinite;
+    white-space: nowrap;
+   }
+
+   .scrolling-text1 {
+    animation: scroll 300s linear infinite;
+    white-space: nowrap;
+   }
+
+   @keyframes shake {
+    0% {
+    transform: translateX(0);
+    }
+    25% {
+    transform: translateX(-5px);
+    }
+    50% {
+    transform: translateX(0);
+    }
+    75% {
+    transform: translateX(5px);
+    }
+    100% {
+    transform: translateX(0);
+    }
+   }
+   
+   .shaking-text {
+    animation: shake 0.5s linear infinite;
+   }
+   

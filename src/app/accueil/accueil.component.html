@@ -74,8 +74,9 @@
 <div class="navbar navbar-dark bg-custom-color shadow-sm">
   <div class="container">
     <a href="#" class="navbar-brand d-flex align-items-center">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+      <p class="scrolling-text1">
       <strong>My Muka</strong>
+      </p>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -89,7 +90,7 @@
 <section class="py-3 text-center container">
   <div class="row py-lg-3 mx-auto">
     <div class="row col-md-12 bg-custom-color">
-      <h1 class="fw-light">Muka</h1>
+      <h1 class="scrolling-text">My Muka</h1>
       <div class="row col-md-4 mx-auto">
         <div class="form-group">
             <input type="text" class="form-control" id="codeSaisi" [formControl]="champSaisi">
@@ -129,7 +130,7 @@
       <div class="row col-md-6 my-3 ">
         <div class="card shadow-sm bg-custom-color">
           <div class="card-body1">
-            <p class="card-text" id="ingredients">ingredients : {{foodIngredients}} </p>
+            <p id="ingredients">ingredients : {{foodIngredients}} </p>
           </div>
         </div>
       </div>
